@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/bitinvoices/static/css/main.0a55eb64.css",
+    "main.js": "/bitinvoices/static/js/main.eb7f2969.js",
+    "static/js/453.ab60ec6c.chunk.js": "/bitinvoices/static/js/453.ab60ec6c.chunk.js",
+    "static/media/ethereum-removebg.png": "/bitinvoices/static/media/ethereum-removebg.c56c7059f9a8d667a7d5.png",
+    "static/media/NeueMontreal-Regular.ttf": "/bitinvoices/static/media/NeueMontreal-Regular.7fb4297f5919edf1eaff.ttf",
+    "static/media/logo.jpg": "/bitinvoices/static/media/logo.c9720991530f5f001a1e.jpg",
+    "static/media/FoundersGrotesk-Semibold.ttf": "/bitinvoices/static/media/FoundersGrotesk-Semibold.5438be1bbcbdb7f422b4.ttf",
+    "static/media/TestSohne-Dreiviertelfett-BF663d89ccc5f66.ttf": "/bitinvoices/static/media/TestSohne-Dreiviertelfett-BF663d89ccc5f66.48d557ad5c624794576c.ttf",
+    "index.html": "/bitinvoices/index.html",
+    "main.0a55eb64.css.map": "/bitinvoices/static/css/main.0a55eb64.css.map",
+    "main.eb7f2969.js.map": "/bitinvoices/static/js/main.eb7f2969.js.map",
+    "453.ab60ec6c.chunk.js.map": "/bitinvoices/static/js/453.ab60ec6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a55eb64.css",
+    "static/js/main.eb7f2969.js"
+  ]
+}
