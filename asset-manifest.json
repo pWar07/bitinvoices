@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/bitinvoices/static/css/main.0a55eb64.css",
-    "main.js": "/bitinvoices/static/js/main.eb7f2969.js",
+    "main.css": "/bitinvoices/static/css/main.3e4868c5.css",
+    "main.js": "/bitinvoices/static/js/main.a72a8cc2.js",
     "static/js/453.ab60ec6c.chunk.js": "/bitinvoices/static/js/453.ab60ec6c.chunk.js",
+    "static/media/bg.png": "/bitinvoices/static/media/bg.fd88a4dfc3e82fda2845.png",
     "static/media/ethereum-removebg.png": "/bitinvoices/static/media/ethereum-removebg.c56c7059f9a8d667a7d5.png",
     "static/media/NeueMontreal-Regular.ttf": "/bitinvoices/static/media/NeueMontreal-Regular.7fb4297f5919edf1eaff.ttf",
+    "static/media/global-networking.png": "/bitinvoices/static/media/global-networking.4b5e6fde64dc05fbec7b.png",
+    "static/media/pencil.png": "/bitinvoices/static/media/pencil.c191230aefd843136f8e.png",
     "static/media/logo.jpg": "/bitinvoices/static/media/logo.c9720991530f5f001a1e.jpg",
     "static/media/FoundersGrotesk-Semibold.ttf": "/bitinvoices/static/media/FoundersGrotesk-Semibold.5438be1bbcbdb7f422b4.ttf",
     "static/media/TestSohne-Dreiviertelfett-BF663d89ccc5f66.ttf": "/bitinvoices/static/media/TestSohne-Dreiviertelfett-BF663d89ccc5f66.48d557ad5c624794576c.ttf",
+    "static/media/secure.png": "/bitinvoices/static/media/secure.03423ee10367f9f42639.png",
     "index.html": "/bitinvoices/index.html",
-    "main.0a55eb64.css.map": "/bitinvoices/static/css/main.0a55eb64.css.map",
-    "main.eb7f2969.js.map": "/bitinvoices/static/js/main.eb7f2969.js.map",
+    "main.3e4868c5.css.map": "/bitinvoices/static/css/main.3e4868c5.css.map",
+    "main.a72a8cc2.js.map": "/bitinvoices/static/js/main.a72a8cc2.js.map",
     "453.ab60ec6c.chunk.js.map": "/bitinvoices/static/js/453.ab60ec6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a55eb64.css",
-    "static/js/main.eb7f2969.js"
+    "static/css/main.3e4868c5.css",
+    "static/js/main.a72a8cc2.js"
   ]
 }
