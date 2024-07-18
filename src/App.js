@@ -2,8 +2,9 @@ import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/section/Hero";
 import Pricing from "./components/section/Pricing";
-import Circle from "./components/elements/Circle";
 import Features from "./components/section/Features";
+import Testimonial from "./components/section/Testimonial";
+import SwapText from "./components/elements/SwapText";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Hero/>
       <Features/>
       <Pricing/>
+      <Testimonial/>
     </div>
   );
 };
