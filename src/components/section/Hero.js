@@ -20,14 +20,7 @@ const Hero = () => {
         <Button2 value="Start Now" />
       </div>
       <div className="hero-img w-[40%]">
-        <motion.img
-          initial={{ width: 0 }}
-          animate={{ width: "100%" }}
-          transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-          className="h-5/6 mx-auto object-center"
-          src={heroImg}
-          alt=""
-        />
+        <img className="h-5/6 mx-auto object-center" src={heroImg} alt="" />
       </div>
     </section>
   );

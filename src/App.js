@@ -5,6 +5,7 @@ import Pricing from "./components/section/Pricing";
 import Features from "./components/section/Features";
 import Testimonial from "./components/section/Testimonial";
 import SwapText from "./components/elements/SwapText";
+import FAQs from "./components/section/FAQs";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Features/>
       <Pricing/>
       <Testimonial/>
+      <FAQs/>
     </div>
   );
 };
