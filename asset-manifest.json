@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bitinvoices/static/css/main.db1c5cf5.css",
-    "main.js": "/bitinvoices/static/js/main.3fa58004.js",
+    "main.css": "/bitinvoices/static/css/main.3a6a7e92.css",
+    "main.js": "/bitinvoices/static/js/main.483a6987.js",
     "static/js/453.ab60ec6c.chunk.js": "/bitinvoices/static/js/453.ab60ec6c.chunk.js",
     "static/media/prof2.jpg": "/bitinvoices/static/media/prof2.1be2b213b270ed89018b.jpg",
     "static/media/prof5.jpg": "/bitinvoices/static/media/prof5.5bea5fe5e95e42a1f34d.jpg",
@@ -18,12 +18,12 @@
     "static/media/TestSohne-Dreiviertelfett-BF663d89ccc5f66.ttf": "/bitinvoices/static/media/TestSohne-Dreiviertelfett-BF663d89ccc5f66.48d557ad5c624794576c.ttf",
     "static/media/secure.png": "/bitinvoices/static/media/secure.03423ee10367f9f42639.png",
     "index.html": "/bitinvoices/index.html",
-    "main.db1c5cf5.css.map": "/bitinvoices/static/css/main.db1c5cf5.css.map",
-    "main.3fa58004.js.map": "/bitinvoices/static/js/main.3fa58004.js.map",
+    "main.3a6a7e92.css.map": "/bitinvoices/static/css/main.3a6a7e92.css.map",
+    "main.483a6987.js.map": "/bitinvoices/static/js/main.483a6987.js.map",
     "453.ab60ec6c.chunk.js.map": "/bitinvoices/static/js/453.ab60ec6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db1c5cf5.css",
-    "static/js/main.3fa58004.js"
+    "static/css/main.3a6a7e92.css",
+    "static/js/main.483a6987.js"
   ]
 }
