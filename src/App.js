@@ -6,17 +6,19 @@ import Features from "./components/section/Features";
 import Testimonial from "./components/section/Testimonial";
 import SwapText from "./components/elements/SwapText";
 import FAQs from "./components/section/FAQs";
+import Contact from "./components/section/Contact";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
     <div className="relative px-32 bg-white font-['neue']">
       <Navbar />
-      {/* <Circle/> */}
       <Hero/>
       <Features/>
       <Pricing/>
       <Testimonial/>
       <FAQs/>
+      <Contact/>
     </div>
   );
 };
