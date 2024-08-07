@@ -32,18 +32,20 @@ const FAQs = () => {
   };
 
   return (
-    <section className="faq flex flex-col items-center text-zinc-900 py-20">
-      <h2 className="mb-14 text-5xl">Frequently Asked Questions</h2>
-      <div className="wrapper px-40 flex w-full justify-center items-center">
+    <section className="faq flex flex-col items-center text-zinc-900 pt-20 md:py-20">
+      <div className="title text-center">
+        <h2 className="mb-6 md:mb-14 text-3xl md:text-5xl">Frequently Asked Questions</h2>
+      </div>
+      <div className="wrapper md:px-40 flex w-full justify-center items-center">
         <div className="accordion w-full">
           {DATA.map((v, i) => {
             return (
-              <div className="item border-b-[1px] end mb-5 px-[20px] py-3 last:border-none">
+              <div className="item border-b-[1px] end mb-5 px-[20px] py-2 md:py-3 last:border-none">
                 <div
-                  className="title flex justify-between items-center mb-3 cursor-pointer"
+                  className="title flex justify-between items-center mb-2 md:mb-3 cursor-pointer"
                   onClick={() => toggle(i)}
                 >
-                  <h2 className="text-xl">{v.question}</h2>
+                  <h2 className="text-lg md:text-xl">{v.question}</h2>
                   <span className="text-2xl">
                     {selected === i ? <CiCircleMinus /> : <CiCirclePlus />}
                   </span>
@@ -55,7 +57,7 @@ const FAQs = () => {
                       : "grid-rows-[0fr] opacity-0 h-0"
                   }`}
                 >
-                  <div className="overflow-hidden text-base">{v.answer}</div>
+                  <div className="overflow-hidden text-base md:text-lg">{v.answer}</div>
                 </div>
               </div>
             );

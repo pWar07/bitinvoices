@@ -12,10 +12,12 @@ const Contact = () => {
       id="contact"
       className="contact flex flex-col items-center text-zinc-900 py-20"
     >
-      <h2 className="mb-14 text-5xl">Contact Us</h2>
-      <div className="wrapper flex w-full">
-        <div className="contact-info w-[55%] pl-32 flex flex-col justify-center">
-          <div className="contWrapper w-full flex flex-col px-10 gap-7 mb-10">
+      <div className="title text-center">
+        <h2 className="mb-6 md:mb-14 text-3xl md:text-5xl">Contact Us</h2>
+      </div>
+      <div className="wrapper block md:flex w-full">
+        <div className="contact-info w-full md:w-[55%] md:pl-32 flex flex-col justify-center mb-10 md:mb-0">
+          <div className="contWrapper w-full flex flex-col px-4 md:px-10 gap-5 md:gap-7 mb-10">
             <div className="flex items-center gap-5">
               <span className="p-4 bg-[#F6971E] rounded-md text-xl">
                 <TfiEmail />
@@ -46,7 +48,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="social-media flex px-10 gap-10">
+          <div className="social-media flex justify-center md:justify-normal md:px-10 gap-10">
             <a href="#" className="text-xl">
               <FaFacebookF />
             </a>
@@ -58,7 +60,7 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <form className="contact-form list-none w-[45%] pr-32">
+        <form className="contact-form list-none w-full md:w-[45%] md:pr-32">
           <ul className="bg-[#F6971E] p-10 rounded-xl">
             <li>
               <input
@@ -89,7 +91,10 @@ const Contact = () => {
                 className="border-[1px] border-transparent w-full rounded-md p-3 mb-5 outline-none"
               ></textarea>
             </li>
-            <button type="submit" className="cta-button w-full bg-black text-white rounded-md p-3">
+            <button
+              type="submit"
+              className="cta-button w-full bg-black text-white rounded-md p-3"
+            >
               Send Message
             </button>
           </ul>

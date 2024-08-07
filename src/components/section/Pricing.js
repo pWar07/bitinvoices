@@ -1,6 +1,13 @@
 import React from "react";
 import { MdDone } from "react-icons/md";
 
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
 const PRICING = [
   {
     id: 1,
@@ -42,15 +49,17 @@ const Pricing = () => {
     // ${i % 2 === 0 ? "py-10" : "py-16"}
     <section
       id="pricing"
-      className="pricing flex flex-col items-center text-zinc-900 py-20"
+      className="pricing flex flex-col items-center text-zinc-900 pt-20 md:py-20"
     >
-      <h2 className="mb-14 text-5xl">Pricing Plans</h2>
-      <div className="pricing-table flex items-center gap-10 px-32">
+      <div className="title text-center">
+        <h2 className="mb-6 md:mb-14 text-3xl md:text-5xl">Pricing Plans</h2>
+      </div>
+      <div className="pricing-table md:flex items-center gap-10 px-6 md:px-32">
         {PRICING.map((v, i) => {
           return (
             <div
               id={i}
-              className={`${v.class} border-[1px] bg-white h-full border-zinc-900 px-8 py-10 rounded-xl 
+              className={`${v.class} border-[1px] bg-white h-full border-zinc-900 px-8 py-10 mb-5 rounded-xl 
               `}
             >
               {i % 2 === 1 && (
@@ -63,7 +72,7 @@ const Pricing = () => {
               <div className="price text-2xl">{v.price}</div>
               <ul className="h-32 my-5 flex flex-col justify-around">
                 <li className="flex w-full gap-3 items-center">
-                <div className="tick p-[2px] bg-[#F6971E] rounded-full">
+                  <div className="tick p-[2px] bg-[#F6971E] rounded-full">
                     <MdDone className="text-sm" />
                   </div>
                   {v.li1}
@@ -77,7 +86,7 @@ const Pricing = () => {
                 </li>
                 <span className="border-b-[1px]"></span>
                 <li className="flex w-full gap-3 items-center">
-                <div className="tick p-[2px] bg-[#F6971E] rounded-full">
+                  <div className="tick p-[2px] bg-[#F6971E] rounded-full">
                     <MdDone className="text-sm" />
                   </div>
                   {v.li3}

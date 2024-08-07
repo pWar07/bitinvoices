@@ -2,7 +2,6 @@ import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { RiDoubleQuotesL } from "react-icons/ri";
-import { RiDoubleQuotesR } from "react-icons/ri";
 
 // Import Swiper styles
 import "swiper/css";
@@ -57,9 +56,9 @@ const TESTIMONIALS = [
 
 const Testimonial = () => {
   return (
-    <section className="testimonials text-zinc-900 py-20">
+    <section className="testimonials text-zinc-900 pt-20 md:py-20">
       <div className="title text-center">
-        <h2 className="mb-14 text-5xl">What Our Clients Say</h2>
+        <h2 className="mb-6 md:mb-14 text-3xl md:text-5xl">What Our Clients Say</h2>
       </div>
       <Swiper
         spaceBetween={30}
