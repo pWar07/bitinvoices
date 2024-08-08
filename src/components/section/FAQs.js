@@ -27,12 +27,11 @@ const FAQs = () => {
     if (selected === i) {
       return setSelected(null);
     }
-
     setSelected(i);
   };
 
   return (
-    <section className="faq flex flex-col items-center text-zinc-900 pt-20 md:py-20">
+    <section id="faq" className="faq flex flex-col items-center text-zinc-900 pt-20 md:py-20">
       <div className="title text-center">
         <h2 className="mb-6 md:mb-14 text-3xl md:text-5xl">Frequently Asked Questions</h2>
       </div>
