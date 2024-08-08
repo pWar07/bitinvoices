@@ -59,6 +59,7 @@ const Pricing = () => {
           return (
             <div
               id={i}
+              key={i}
               className={`${v.class} border-[1px] bg-white h-full border-zinc-900 px-8 py-10 mb-5 rounded-xl 
               `}
             >

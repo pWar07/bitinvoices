@@ -40,7 +40,7 @@ const FAQs = () => {
         <div className="accordion w-full">
           {DATA.map((v, i) => {
             return (
-              <div className="item border-b-[1px] end mb-5 px-[20px] py-2 md:py-3 last:border-none">
+              <div key={i} className="item border-b-[1px] end mb-5 px-[20px] py-2 md:py-3 last:border-none">
                 <div
                   className="title flex justify-between items-center mb-2 md:mb-3 cursor-pointer"
                   onClick={() => toggle(i)}

@@ -76,7 +76,7 @@ const Testimonial = () => {
       >
         {TESTIMONIALS.map((v, i) => {
           return (
-            <SwiperSlide className="relative py-10 flex flex-col items-center justify-center">
+            <SwiperSlide key={i} className="relative py-10 flex flex-col items-center justify-center">
               <div className="top flex flex-col justify-center items-center">
                 <img
                   src={v.img}
