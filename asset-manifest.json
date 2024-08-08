@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bitinvoices/static/css/main.535b6bca.css",
-    "main.js": "/bitinvoices/static/js/main.43fedfc6.js",
+    "main.js": "/bitinvoices/static/js/main.c8e801f1.js",
     "static/js/453.ab60ec6c.chunk.js": "/bitinvoices/static/js/453.ab60ec6c.chunk.js",
     "static/media/prof2.jpg": "/bitinvoices/static/media/prof2.1be2b213b270ed89018b.jpg",
     "static/media/prof5.jpg": "/bitinvoices/static/media/prof5.5bea5fe5e95e42a1f34d.jpg",
@@ -19,11 +19,11 @@
     "static/media/secure.png": "/bitinvoices/static/media/secure.03423ee10367f9f42639.png",
     "index.html": "/bitinvoices/index.html",
     "main.535b6bca.css.map": "/bitinvoices/static/css/main.535b6bca.css.map",
-    "main.43fedfc6.js.map": "/bitinvoices/static/js/main.43fedfc6.js.map",
+    "main.c8e801f1.js.map": "/bitinvoices/static/js/main.c8e801f1.js.map",
     "453.ab60ec6c.chunk.js.map": "/bitinvoices/static/js/453.ab60ec6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.535b6bca.css",
-    "static/js/main.43fedfc6.js"
+    "static/js/main.c8e801f1.js"
   ]
 }
